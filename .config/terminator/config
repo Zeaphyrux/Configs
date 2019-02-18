@@ -1,0 +1,90 @@
+[global_config]
+  suppress_multiple_term_dialog = True
+  tab_position = hidden
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[Musica]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 55ba970b-6ec3-4c74-b87f-450c98f5641b
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 20:54
+      size = 933, 1004
+      title = z@archlinux: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 574
+      ratio = 0.574574574575
+      type = VPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 466
+      ratio = 0.502155172414
+      type = HPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = cmus
+      type = Terminal
+      uuid = 5b35adf4-febe-4747-96f4-82521119733e
+    [[[terminal4]]]
+      order = 0
+      parent = child3
+      profile = Archie
+      type = Terminal
+      uuid = 4f6443ba-b1dc-4ef6-8d14-037ab3db7db2
+    [[[terminal5]]]
+      order = 1
+      parent = child3
+      profile = vis
+      type = Terminal
+      uuid = 55ba970b-6ec3-4c74-b87f-450c98f5641b
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    show_titlebar = False
+    use_theme_colors = True
+  [[Archie]]
+    background_darkness = 0.78
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    custom_command = archey3
+    exit_action = hold
+    font = Inconsolata Bold 13
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+  [[cmus]]
+    background_darkness = 0.75
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    custom_command = cmus
+    font = Inconsolata 13
+    foreground_color = "#00ff00"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+    use_system_font = False
+  [[vis]]
+    background_darkness = 0.75
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    custom_command = vis
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
